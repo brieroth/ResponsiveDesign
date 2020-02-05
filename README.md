@@ -1,6 +1,6 @@
 # responsivedesign
 
-> responsive design for devices
+> responsive log in form design for devices
 
 ## Build Setup
 
