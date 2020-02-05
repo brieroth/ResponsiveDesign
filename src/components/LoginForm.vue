@@ -8,31 +8,23 @@
        <h2 class="formHeading"
        >Login details</h2>
        <div class="responsiveForm">
-       <div class="responsiveA">
+       <div class="responsiveUsername">
          <label><b>Username</b></label>
           <input type="text" placeholder="Enter Username" required>
        </div>
-       <div class="responsiveB">
+       <div class="responsivePassword">
           <label><b>Password</b></label>
           <input type="password" placeholder="Enter Password" required>
        </div>
        </div>
-        <div class="responsiveC">
+        <div class="responsiveButton">
           <button type="submit">Login</button>
         </div>
      </div>
   </div>
 </template>
 
-<script>
-export default {
-  name: 'LoginForm',
-  data () {
-    return {
-      msg: 'Lets get started!'
-    }
-  }
-}
+<script src="../assets/js/main.js">
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

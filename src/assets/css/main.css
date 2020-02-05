@@ -1,5 +1,5 @@
 .pageBackground{
-    background-color: #f0f2f5;
+    background-color: #f2f5f1;
 }
 .container{
     margin:20px;
@@ -31,7 +31,7 @@ h2.formHeading{
     width: auto;
     height: auto;
     overflow: auto;
-    background-color: #f0f2f5;
+    background-color: #f2f5f1;
     padding: 20px;
     border-radius: 15px;
     display: inline-block;
@@ -90,17 +90,17 @@ label{
     .containerForm{
         padding: 10px 40px 40px;
     }
-    .responsiveA, .responsiveB{
+    .responsiveUsername, .responsivePassword{
         background-color: inherit;
         display: inline-flex;
     }
-    .responsiveA{
+    .responsiveUsername{
         float: left;
     }
-    .responsiveB{
+    .responsivePassword{
         float: right;
     }
-    .responsiveC{
+    .responsiveButton{
         /* float: right; */
     }
     input{
@@ -122,15 +122,11 @@ label{
         float: left;
     }
     button{
-        /* width: 189px; */
+        width: 20%;
     }
-    .responsiveC{
-        /* float: right; */
-        /* width: 189px; */
-        /* height: 40px; */
-        /* margin-top: 7px; */
+    .responsiveButton{
+       
     }
 }
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {}
