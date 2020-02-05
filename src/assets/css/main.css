@@ -1,0 +1,136 @@
+.pageBackground{
+    background-color: #f0f2f5;
+}
+.container{
+    margin:20px;
+    background-color: inherit;
+}
+
+ h1, h2, h3, h4 {
+  font-weight: normal;
+ }
+
+.subHeading{
+    font-weight: normal;
+}
+h4.subHeading {
+    font-style: italic;
+}
+h2.formHeading{
+    padding-bottom: 10px;
+    /* text-decoration: underline; */
+}
+.formHeading{
+    border-bottom: 1px solid #333333;
+    width: 100%;
+    padding: 0px 0 10px;
+    text-align: left;
+    
+}
+.containerForm {
+    width: auto;
+    height: auto;
+    overflow: auto;
+    background-color: #f0f2f5;
+    padding: 20px;
+    border-radius: 15px;
+    display: inline-block;
+}
+label{
+    float: left;
+    padding-top:10px;
+}
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: auto;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+
+  input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+/* Small devices (portrait tablets and large phones, 600px and up) */
+  @media (min-width: 600px){
+       button{
+          background-color: lightskyblue;
+          /* width: 360px; */
+      }
+      input {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        background-color: #fff;
+        border-radius: 5px;
+        box-sizing: border-box;
+      }
+  }
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media  (min-width: 900px) {
+
+    .containerForm{
+        padding: 10px 40px 40px;
+    }
+    .responsiveA, .responsiveB{
+        background-color: inherit;
+        display: inline-flex;
+    }
+    .responsiveA{
+        float: left;
+    }
+    .responsiveB{
+        float: right;
+    }
+    .responsiveC{
+        /* float: right; */
+    }
+    input{
+        width:50%;
+        float: right;
+    }
+    label{
+        float: left;
+        padding-right: 20px;
+        margin-top: 10px;
+    
+    }
+    .containerForm{
+        min-width: 780px;
+        max-width: max-content;
+    }
+    .responsiveForm{
+        max-width: 615px;
+        float: left;
+    }
+    button{
+        /* width: 189px; */
+    }
+    .responsiveC{
+        /* float: right; */
+        /* width: 189px; */
+        /* height: 40px; */
+        /* margin-top: 7px; */
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
